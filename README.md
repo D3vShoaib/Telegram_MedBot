@@ -31,7 +31,7 @@ def lambda_handler(event, context):
    # Send the generated message back to the Telegram chat
    bot.send_message(chat_id=chat_id, text=generated_message)
     
-Functions of MedBot:
+# Functions of MedBot:
 1-The Ultimate Q&A Partner: Got questions? MedBot has answers! With the help of its trusty sidekick
 2-Motivational Messaging: MedBot kicks off each conversation with a motivational message
 3-Stress Management Techniques: MedBot has access to a treasure trove of research-based stress management techniques.
