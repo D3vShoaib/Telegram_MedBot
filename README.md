@@ -6,10 +6,10 @@ import telegram
 import openai
 
 # Set up OpenAI API
-openai.api_key = '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'
+openai.api_key = '***********************************D8hOaFKw'
 
 # Set up Telegram bot
-bot = telegram.Bot(token='6117498391:AAFycUsFY2kdq4ImUMAv9_8J8DDPay6iBMk')
+bot = telegram.Bot(token='**************************8DDPay6iBMk')
 
 def lambda_handler(event, context):
     # Extract the message content from the Telegram update
